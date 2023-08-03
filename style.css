@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: 'roboto-black';
+src: url(./fonts/Roboto/Roboto-Black.ttf);
+}
+.main {
+    background-color: #265cc5;
+    height: 100vh;
+    width: 100vw;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+
+}
+
+.img1 {
+    margin: 30px 0px 0px 50px;
+}
+.img1_text{
+    color: white;
+    background-color: #1437bf;
+    text-align: center;
+    padding: 7px;
+    margin-top: -1%;
+    margin-left: 10.5%;
+    font-family: 'roboto-black';
+    letter-spacing: 1px;
+}
+.right1 {
+    background-image: url("./material/two_person.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 100%;
+    margin: 0px 0px 0px 85px;
+    position: absolute;
+    background-position: 58%;
+}
+
+.img2 {
+    width: 60%;
+    margin-top: 55%;
+    margin-left: 40%;
+}
